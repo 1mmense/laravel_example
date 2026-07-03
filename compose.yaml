@@ -20,6 +20,7 @@ services:
         volumes:
             - '.:/var/www/html'
             - '/mnt/m/Мой диск/1 BB stats table:/var/www/html/public/bb_stats_table'
+            - "/mnt/m/Мой диск/STUDY/database:/var/www/html/database/mounted"
         networks:
             - sail
         depends_on: {}
